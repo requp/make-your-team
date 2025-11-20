@@ -1,0 +1,25 @@
+[project]
+name = "make-your-team"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django>=5.2.8",
+    "django-admin-list-filter-dropdown>=1.0.3",
+    "django-admin-rangefilter>=0.13.3",
+    "django-environ>=0.12.0",
+    "django-extensions>=4.1",
+    "django-filter>=25.2",
+    "djangorestframework>=3.16.1",
+    "drf-yasg>=1.21.11",
+    "factory-boy>=3.3.3",
+    "gunicorn>=23.0.0",
+    "langdetect>=1.0.9",
+    "markdown>=3.9",
+    "pillow>=11.3.0",
+    "psycopg2-binary>=2.9.11",
+    "pytest>=8.4.2",
+    "pytest-django>=4.11.1",
+    "urllib3>=2.5.0",
+]

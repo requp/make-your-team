@@ -1,0 +1,8 @@
+POSTGRES_USER=root
+POSTGRES_PASSWORD=password
+POSTGRES_DB=myt
+SECRET_KEY="secret"
+DATABASE_URL="postgres://root:password@db:5432/myt"
+DEBUG=True
+ALLOWED_HOSTS=localhost,127.0.0.1
+DJANGO_SETTINGS_MODULE=core.settings
