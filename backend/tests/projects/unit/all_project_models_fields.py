@@ -50,10 +50,14 @@ ALL_PROJECT_FIELDS = {
     "description": {
         "field_type": fields.TextField,
         "max_length": 1000,
+        "null": True,
+        "blank": True,
     },
     "icon": {
         "field_type": fields.files.ImageField,
-        "upload_to": "project_icons/"
+        "upload_to": "project_icons/",
+        "null": True,
+        "blank": True,
     },
     "slug": {
         "field_type": fields.SlugField,
